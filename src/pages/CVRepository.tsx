@@ -274,7 +274,7 @@ const CVRepository = () => {
                 placeholder="Search by name, company, role, or department..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                className="flex-1 min-w-[300px] px-4 py-2 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 max-w-full"
+                className="flex-1  px-4 py-2 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 max-w-full"
               />
               <select 
                 value={selectedDepartment}

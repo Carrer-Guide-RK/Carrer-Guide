@@ -19,12 +19,12 @@ const Footer = () => {
             <h3 className="text-white text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <Link to="/" className="text-gray-400 hover:text-white text-sm">
+                <Link to="/" className="text-gray-400 hover:text-white text-sm" onClick={() => window.scrollTo(0, 0)}>
                   Home
                 </Link>
               </li>
               <li>
-                <Link to="/cv-repository" className="text-gray-400 hover:text-white text-sm">
+                <Link to="/cv-repository" className="text-gray-400 hover:text-white text-sm" onClick={() => window.scrollTo(0, 0)}>
                   CV Repository
                 </Link>
               </li>
@@ -41,7 +41,7 @@ const Footer = () => {
             <h3 className="text-white text-lg font-semibold mb-4">Resources</h3>
             <ul className="space-y-2">
               <li>
-                <a href="/roadmaps" className="text-gray-400 hover:text-white text-sm">
+                <a href="/roadmaps" className="text-gray-400 hover:text-white text-sm" onClick={() => window.scrollTo(0, 0)}>
                   Career Guide
                 </a>
               </li>
@@ -51,7 +51,7 @@ const Footer = () => {
                 </a>
               </li> */}
               <li>
-                <a href="/cv-buddy" className="text-gray-400 hover:text-white text-sm">
+                <a href="/cv-buddy" className="text-gray-400 hover:text-white text-sm" onClick={() => window.scrollTo(0, 0)}>
                   Resume Templates
                 </a>
               </li>

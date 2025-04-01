@@ -76,42 +76,42 @@ const Navbar = () => {
           <Link
             to="/"
             className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
-            onClick={() => setIsMobileMenuOpen(false)}
+            onClick={() => {setIsMobileMenuOpen(false); window.scrollTo(0, 0)} } 
           >
             Home
           </Link>
           <Link
             to="/roadmaps"
             className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
-            onClick={() => setIsMobileMenuOpen(false)}
+            onClick={() => {setIsMobileMenuOpen(false); window.scrollTo(0, 0)}}
           >
             Roadmaps
           </Link>
           <Link
             to="/cv-repository"
             className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
-            onClick={() => setIsMobileMenuOpen(false)}
+            onClick={() => {setIsMobileMenuOpen(false); window.scrollTo(0, 0)}}
           >
             CV Repository
           </Link>
           <Link
             to="/cv-buddy"
             className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
-            onClick={() => setIsMobileMenuOpen(false)}
+            onClick={() => {setIsMobileMenuOpen(false); window.scrollTo(0, 0)}}
           >
             CV Buddy
           </Link>
           <Link
             to="/resources"
             className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
-            onClick={() => setIsMobileMenuOpen(false)}
+            onClick={() => {setIsMobileMenuOpen(false); window.scrollTo(0, 0)}}
           >
             Resources
           </Link>
           <Link
             to="/about"
             className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
-            onClick={() => setIsMobileMenuOpen(false)}
+            onClick={() => {setIsMobileMenuOpen(false); window.scrollTo(0, 0)}}
           >
             About
           </Link>

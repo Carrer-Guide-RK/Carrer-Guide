@@ -85,10 +85,10 @@ const CVTemplate: React.FC<CVTemplateProps> = ({ institute }) => {
                             </svg>
                             Back to Templates
                         </Link>
-                        <div className="flex items-center gap-4">
+                        <div className="flex items-center gap-1">
                             <button 
                                 onClick={handleEdit}
-                                className={`px-4 py-2 rounded-md transition-colors ${
+                                className={`px-3 py-2 rounded-md transition-colors ${
                                     isEditing 
                                         ? 'bg-green-600 text-white hover:bg-green-700' 
                                         : 'bg-blue-600 text-white hover:bg-blue-700'
@@ -98,14 +98,14 @@ const CVTemplate: React.FC<CVTemplateProps> = ({ institute }) => {
                             </button>
                             <button 
                                 onClick={handleSave}
-                                className="px-4 py-2 bg-gray-600 text-white rounded-md hover:bg-gray-700 transition-colors"
+                                className="px-2 py-2 bg-gray-600 text-white rounded-md hover:bg-gray-700 transition-colors"
                                 disabled={!isEditing}
                             >
                                 Save
                             </button>
                             <button 
                                 onClick={handleReset}
-                                className="px-4 py-2 bg-red-600 text-white rounded-md hover:bg-red-700 transition-colors"
+                                className="px-3 py-2 bg-red-600 text-white rounded-md hover:bg-red-700 transition-colors"
                             >
                                 Reset
                             </button>
