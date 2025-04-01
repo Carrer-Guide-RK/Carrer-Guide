@@ -26,7 +26,7 @@ const About = () => {
               
               <div className="prose prose-purple max-w-none">
                 <p className="text-gray-600 mb-4">
-reerGuide is a comprehensive platform designed to revolutionize the CV creation and Career Guidance process for students. We understand the challenges students face when choosing their career paths, and we're here to make that process seamless and effective.
+CareerGuide is a comprehensive platform designed to revolutionize the CV creation and Career Guidance process for students. We understand the challenges students face when choosing their career paths, and we're here to make that process seamless and effective.
                 </p>
 
                 <div className="grid md:grid-cols-2 gap-8 mt-8">
@@ -95,7 +95,7 @@ reerGuide is a comprehensive platform designed to revolutionize the CV creation 
                 <div className="md:col-span-1">
                   <div className="aspect-w-1 aspect-h-1 rounded-xl overflow-hidden bg-gray-100">
                     <img
-                      src="assets/images/praneeth.jpg"
+                      src="assets/images/praneeth-photo.jpg"
                       alt="Sudhagani Praneeth Kumar"
                       className="w-full h-full object-cover"
                     />
@@ -109,15 +109,19 @@ reerGuide is a comprehensive platform designed to revolutionize the CV creation 
                   
                   <div className="prose prose-purple max-w-none">
                     <p className="text-gray-600 mb-4">
-                      Sudhagani Praneeth Kumar is a third-year undergraduate student at the Indian Institute of Technology Kharagpur, pursuing Bachelor's in Bioscience and Biotechnology. Passionate about Strategy and consulting, he actively participates in various campus organizations including Students' Branding and Relations Cell, TedxIITKharagpur, and SPIC MACAY.
+                    Sudhagani Praneeth Kumar is a third-year undergraduate student at the prestigious Indian Institute of Technology Kharagpur, where he is pursuing a Bachelor's degree in Bioscience and Biotechnology. With a keen interest in Strategy and Consulting, Sudhagani is actively involved in various campus organizations, including the Students' Branding and Relations Cell, TedxIITKharagpur, and SPIC MACAY.
                     </p>
                     
                     <p className="text-gray-600 mb-4">
-                      An enthusiastic learner focused on building connections and taking on new challenges to drive both personal and professional growth. His experience includes working on numerous real industry problems, and he has founded a freelance startup called Prodigy.
+                    A passionate and driven learner, Sudhagani is focused on personal and professional development by embracing new challenges and forging meaningful connections. His diverse experiences include tackling real-world industry problems, showcasing his adaptability and problem-solving skills. Furthermore, he is the founder of Prodigy, a freelance startup designed to address a common challenge faced by students: creating professional CVs.
                     </p>
 
                     <p className="text-gray-600 mb-6">
-                      "I developed this platform during my time at CDC to address the challenges students face when creating professional CVs. Having experienced the CV creation process firsthand, I understood the need for a standardized, user-friendly solution."
+                    "When the CDC internship and placement drive started, I identified the difficulties students encounter when building their professional CVs. Having gone through this process myself, I recognized the urgent need for a standardized and user-friendly platform to streamline the CV creation experience."
+                    </p>
+
+                    <p className="text-gray-600 mb-6">
+                    This platform, born out of his personal experience, is a testament to his entrepreneurial spirit and commitment to providing practical solutions to the student community.
                     </p>
 
                     <div className="border-t border-gray-100 pt-6">

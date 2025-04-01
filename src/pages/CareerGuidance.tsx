@@ -411,7 +411,7 @@ const CareerGuidance = () => {
                   <p className="text-purple-100 text-lg">{sector.description}</p>
                 </div>
 
-                <div className="p-8">
+                <div className="p-[16px]">
                   <div className="grid gap-6">
                     {sector.careers.map((career, careerIndex) => (
                       <div key={careerIndex} className="bg-gray-50 rounded-xl p-6 border border-gray-200 hover:border-purple-300 transition-colors">
@@ -419,7 +419,7 @@ const CareerGuidance = () => {
                           <div className="flex-1">
                             <div className="flex items-center gap-3 mb-3">
                               <h3 className="text-2xl font-medium text-gray-900">{career.title}</h3>
-                              <span className="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm font-medium">
+                              <span className="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm font-medium w-max">
                                 {career.stages.length} Learning Stages
                               </span>
                             </div>

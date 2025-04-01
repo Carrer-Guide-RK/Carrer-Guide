@@ -28,11 +28,11 @@ const Footer = () => {
                   CV Repository
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to="/contact" className="text-gray-400 hover:text-white text-sm">
                   Get Mentorship
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
 
@@ -41,17 +41,17 @@ const Footer = () => {
             <h3 className="text-white text-lg font-semibold mb-4">Resources</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-gray-400 hover:text-white text-sm">
+                <a href="/roadmaps" className="text-gray-400 hover:text-white text-sm">
                   Career Guide
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#" className="text-gray-400 hover:text-white text-sm">
                   Interview Tips
                 </a>
-              </li>
+              </li> */}
               <li>
-                <a href="#" className="text-gray-400 hover:text-white text-sm">
+                <a href="/cv-buddy" className="text-gray-400 hover:text-white text-sm">
                   Resume Templates
                 </a>
               </li>

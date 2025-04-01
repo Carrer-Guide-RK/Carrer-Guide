@@ -1,4 +1,8 @@
+import { useNavigate } from 'react-router-dom';
+
 const Hero = () => {
+  const navigate=useNavigate();
+
   return (
     <div className="relative min-h-screen flex items-center justify-center pt-24">
       {/* Background pattern */}
@@ -28,10 +32,10 @@ const Hero = () => {
         </div>
 
         <div className="flex items-center justify-center gap-4 mb-16">
-          <button className="inline-flex items-center gap-2 bg-purple-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-purple-700 transition-colors">
+          <button className="inline-flex items-center gap-2 bg-purple-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-purple-700 transition-colors" onClick={()=>{navigate('/roadmaps')}} >
             Explore Now
           </button>
-          <button className="inline-flex items-center gap-2 border-2 border-gray-200 text-gray-700 px-6 py-3 rounded-lg font-medium hover:bg-gray-50 transition-colors">
+          <button className="inline-flex items-center gap-2 border-2 border-gray-200 text-gray-700 px-6 py-3 rounded-lg font-medium hover:bg-gray-50 transition-colors" onClick={()=>{navigate('/cv-buddy')}}>
             Build Your CV
           </button>
         </div>
