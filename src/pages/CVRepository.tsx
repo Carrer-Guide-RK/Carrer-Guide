@@ -210,7 +210,7 @@ const CVRepository = () => {
     'Industrial Engineering'
   ];
   const companyTypes = [
-    'All Companies', 
+    'All Domains', 
     'Consulting', 
     'Tech', 
     'Core', 
@@ -229,7 +229,7 @@ const CVRepository = () => {
     const matchesDepartment = selectedDepartment === '' || selectedDepartment === 'All Departments' || 
       profile.department === selectedDepartment;
 
-    const matchesCompanyType = selectedCompanyType === '' || selectedCompanyType === 'All Companies' || 
+    const matchesCompanyType = selectedCompanyType === '' || selectedCompanyType === 'All Domians' || 
       (selectedCompanyType === 'Consulting' && profile.company.includes('Consulting')) ||
       (selectedCompanyType === 'Tech' && (profile.company.includes('Samsung') || profile.company.includes('Morgan Stanley'))) ||
       (selectedCompanyType === 'Core' && (profile.company.includes('BPCL') || profile.company.includes('Reliance'))) ||
